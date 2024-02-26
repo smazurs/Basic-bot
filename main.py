@@ -9,7 +9,7 @@ from responses import get_response
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-# STEP 1: BOT SETUP
+# BOT SETUP
 intents: Intents = Intents.default()
 intents.message_content = True  # NOQA
 intents.members = True # NOQA
