@@ -24,14 +24,14 @@ To run the bot, follow these steps:
 
 2. Install the required dependencies:
 
-   ```bash
+   ```python
    pip install discord
    pip install python-dotenv
    ```
 
 3. Create a `.env` file in the root directory with your Discord bot token:
 
-   ```env
+   ```python
    DISCORD_TOKEN=your_token_here
    ```
 
@@ -39,7 +39,7 @@ To run the bot, follow these steps:
 
 Make sure to install the required dependencies using the following commands:
 
-```bash
+```python
 pip install discord
 pip install python-dotenv
 ```
